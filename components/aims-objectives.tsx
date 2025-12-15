@@ -16,8 +16,8 @@ export default function AimsObjectives() {
   ]
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="objective" className="py-20 bg-white">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold mb-8 text-gray-900">Aims and Objectives</h2>
 
         <div className="space-y-4 mb-16">
@@ -42,7 +42,7 @@ export default function AimsObjectives() {
 
           <div>
             <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-              <Image src="/elderly-people-language-exchange-program.jpg" alt="Language exchange programs" fill className="object-cover" />
+              <Image src="/images/Image(10).png" alt="Language exchange programs" fill className="object-cover" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Language exchange programs</h3>
             <p className="text-gray-600 text-sm">

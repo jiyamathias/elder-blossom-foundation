@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function WhoWeAre() {
   return (
-    <section className="py-20 bg-white">
+    <section id="our-story" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold mb-16 text-gray-900">Who We Are</h2>
 
@@ -37,10 +37,10 @@ export default function WhoWeAre() {
             </div>
 
             <div className="flex gap-4 mt-8">
-              <button className="px-6 py-2 bg-primary text-white rounded-md font-medium hover:bg-opacity-90 transition">
+              <button className="px-6 py-2 bg-primary text-white rounded-md font-medium hover:bg-opacity-90 transition cursor-pointer">
                 Learn More
               </button>
-              <button className="px-6 py-2 border-2 border-primary text-primary rounded-md font-medium hover:bg-primary hover:text-white transition">
+              <button className="px-6 py-2 border-2 border-primary text-primary rounded-md font-medium hover:bg-primary hover:text-white transition cursor-pointer">
                 Donate
               </button>
             </div>

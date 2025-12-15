@@ -1,0 +1,107 @@
+[00:00:00.725] Server  LOG      ✓ Ready in 467ms
+[00:00:04.896] Server  LOG      ○ Compiling / ...
+[00:00:05.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.234] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:06.234] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:06.234] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765802571093}
+[00:00:52.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:52.440] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:52.440] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:52.441] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765802617299}
+[00:06:34.612] Server  LOG      ✓ Compiled in 88ms
+[00:06:35.617] Browser ERROR   uncaughtError: Error: Image with src "/images/Image(8).png" has both "width" and "fill" properties. Only one should be used.
+[00:07:06.306] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:06.330] Server  LOG      ✓ Compiled in 55ms
+[00:07:06.733] Server  ERROR    ⨯ Error: Image with src "/images/Image(8).png" has both "width" and "fill" properties. Only one should be used.
+[00:07:07.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:07.808] Browser ERROR   uncaughtError: Error: Image with src "/images/Image(8).png" has both "width" and "fill" properties. Only one should be used.
+[00:07:20.508] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:20.642] Server  LOG      ✓ Compiled in 53ms
+[00:07:21.397] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:22.057] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:22.057] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:22.057] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765803006482}
+[00:07:22.057] Browser WARN    Image with src "/images/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:08:52.074] Server  LOG      ✓ Compiled in 168ms
+[00:09:10.027] Server  LOG      ✓ Compiled in 153ms
+[00:09:13.070] Server  LOG      ✓ Compiled in 37ms
+[00:09:27.822] Server  LOG      ✓ Compiled in 60ms
+[00:19:20.426] Server  LOG      ✓ Compiled in 150ms
+[00:19:21.471] Browser WARN    Image with src "http://localhost:3000/images/image-282-29.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:19:21.471] Browser WARN    Image with src "http://localhost:3000/images/image-284-29.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:23:32.672] Server  LOG      ✓ Compiled in 69ms
+[00:23:47.405] Server  LOG      ✓ Compiled in 94ms
+[00:24:37.312] Server  LOG      ✓ Compiled in 56ms
+[00:25:33.905] Server  LOG      ✓ Compiled in 169ms
+[00:26:55.857] Server  LOG      ✓ Compiled in 144ms
+[00:27:02.797] Server  LOG      ✓ Compiled in 194ms
+[00:27:12.645] Server  LOG      ✓ Compiled in 83ms
+[00:27:25.537] Server  LOG      ✓ Compiled in 112ms
+[00:27:38.871] Server  LOG      ✓ Compiled in 124ms
+[00:27:51.186] Server  LOG      ✓ Compiled in 79ms
+[00:28:19.312] Server  LOG      ✓ Compiled in 104ms
+[00:28:25.526] Server  LOG      ✓ Compiled in 101ms
+[00:29:06.682] Server  LOG      ✓ Compiled in 54ms
+[00:30:19.491] Server  LOG      ✓ Compiled in 93ms
+[00:30:25.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:25.422] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:25.422] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:30:25.422] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765804390282}
+[00:30:49.996] Server  LOG      ✓ Compiled in 69ms
+[00:31:13.988] Server  LOG      ✓ Compiled in 63ms
+[00:31:56.293] Server  LOG      ✓ Compiled in 79ms
+[00:32:09.108] Server  LOG      ✓ Compiled in 84ms
+[00:32:10.792] Server  LOG      ✓ Compiled in 82ms
+[00:32:18.744] Server  LOG      ✓ Compiled in 145ms
+[00:32:38.141] Server  LOG      ✓ Compiled in 128ms
+[00:32:53.593] Server  LOG      ✓ Compiled in 53ms
+[00:33:19.182] Server  LOG      ✓ Compiled in 55ms
+[00:33:24.881] Server  LOG      ✓ Compiled in 62ms
+[00:33:35.333] Server  LOG      ✓ Compiled in 89ms
+[00:33:46.497] Server  LOG      ✓ Compiled in 44ms
+[00:34:05.874] Server  LOG      ✓ Compiled in 40ms
+[00:34:17.785] Server  LOG      ✓ Compiled in 52ms
+[00:34:27.444] Server  LOG      ✓ Compiled in 56ms
+[00:34:43.568] Server  LOG      ✓ Compiled in 125ms
+[00:35:26.157] Server  LOG      ✓ Compiled in 65ms
+[00:35:47.578] Server  LOG      ✓ Compiled in 208ms
+[00:36:08.218] Server  LOG      ✓ Compiled in 60ms
+[00:36:32.854] Server  LOG      ✓ Compiled in 124ms
+[00:37:21.475] Server  LOG      ✓ Compiled in 97ms
+[00:39:06.002] Server  LOG      ✓ Compiled in 67ms
+[00:44:09.047] Server  LOG      ✓ Compiled in 146ms
+[00:44:39.456] Server  LOG      ✓ Compiled in 135ms
+[00:45:47.755] Server  LOG      ✓ Compiled in 70ms
+[00:47:54.210] Server  LOG      ✓ Compiled in 67ms
+[00:48:36.376] Server  LOG      ✓ Compiled in 75ms
+[00:50:20.958] Server  LOG      ✓ Compiled in 49ms
+[00:50:55.938] Server  LOG      ✓ Compiled in 76ms
+[00:53:03.672] Server  LOG      ✓ Compiled in 51ms
+[00:57:07.680] Server  LOG      ✓ Compiled in 195ms
+[00:57:45.705] Server  LOG      ✓ Compiled in 84ms
+[00:58:00.959] Server  LOG      ✓ Compiled in 77ms
+[01:03:19.499] Server  LOG      ✓ Compiled in 273ms
+[01:04:35.596] Server  LOG      ✓ Compiled in 98ms
+[01:05:20.593] Server  LOG      ✓ Compiled in 90ms
+[01:06:22.280] Server  LOG      ✓ Compiled in 99ms
+[01:06:35.880] Server  LOG      ✓ Compiled in 94ms
+[01:06:51.430] Server  LOG      ✓ Compiled in 162ms
+[01:08:27.373] Server  LOG      ✓ Compiled in 173ms
+[01:09:45.656] Server  LOG      ✓ Compiled in 82ms
+[01:09:58.483] Server  LOG      ✓ Compiled in 83ms
+[01:10:25.487] Server  LOG      ✓ Compiled in 106ms
+[01:10:35.437] Server  LOG      ✓ Compiled in 136ms
+[01:11:00.755] Server  LOG      ✓ Compiled in 117ms
+[01:11:03.767] Server  LOG      ✓ Compiled in 85ms
+[01:11:23.273] Server  LOG      ✓ Compiled in 102ms
+[01:11:54.893] Server  LOG      ✓ Compiled in 119ms
+[01:12:12.569] Server  LOG      ✓ Compiled in 128ms
+[01:15:00.594] Server  LOG      ✓ Compiled in 123ms
+[01:15:06.591] Server  LOG      ✓ Compiled in 133ms
+[01:15:48.347] Server  LOG      ✓ Compiled in 140ms
+[01:16:25.859] Server  LOG      ✓ Compiled in 79ms
+[01:16:39.087] Server  LOG      ✓ Compiled in 54ms
+[01:16:50.586] Server  LOG      ✓ Compiled in 47ms
+[01:17:54.052] Server  LOG      ✓ Compiled in 60ms
+[01:18:03.823] Server  LOG      ✓ Compiled in 45ms

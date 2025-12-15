@@ -1,99 +1,116 @@
 "use client"
 
+import type React from "react"
+
 import Link from "next/link"
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
+import { Facebook, Youtube, Linkedin, Instagram } from "lucide-react"
 
 export default function Footer() {
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    e.preventDefault()
+    const element = document.getElementById(targetId)
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" })
+    }
+  }
+
   return (
-    <footer className="bg-primary text-white py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
-          {/* About */}
+    <footer className="bg-primary text-white py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-start">
+          {/* Copyright Column */}
           <div>
-            <h4 className="font-bold text-lg mb-4">About</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="#" className="hover:text-gray-200 transition">
-                  Our Story
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-gray-200 transition">
-                  Our Team
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-gray-200 transition">
-                  Careers
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Pages */}
-          <div>
-            <h4 className="font-bold text-lg mb-4">Pages</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="#" className="hover:text-gray-200 transition">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-gray-200 transition">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-gray-200 transition">
-                  Blog
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div id="contact-us">
-            <h4 className="font-bold text-lg mb-4">Contact Us</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="mailto:info@elderblossom.org" className="hover:text-gray-200 transition">
-                  info@elderblossom.org
-                </a>
-              </li>
-              <li>
-                <a href="tel:+234123456789" className="hover:text-gray-200 transition">
-                  +234 (0) 123 456 789
-                </a>
-              </li>
-              <li>Lagos, Nigeria</li>
-            </ul>
-          </div>
-
-          {/* Social */}
-          <div>
-            <h4 className="font-bold text-lg mb-4">Follow Us</h4>
+            <h4 className="font-bold text-xl">Copyright © 2023 Elder Blossom</h4>
+            <h4 className="font-bold text-xl mb-4">Foundation</h4>
+            <p className="text-sm text-gray-200 mb-8">All right reserved.</p>
+            {/* Social Media Icons */}
             <div className="flex gap-4">
-              <a href="#" className="hover:text-gray-200 transition">
-                <Facebook className="w-5 h-5" />
+              <a href="#" className="hover:text-gray-200 transition" aria-label="Facebook">
+                <Facebook className="w-8 h-8" />
               </a>
-              <a href="#" className="hover:text-gray-200 transition">
-                <Twitter className="w-5 h-5" />
+              <a href="#" className="hover:text-gray-200 transition" aria-label="YouTube">
+                <Youtube className="w-8 h-8" />
               </a>
-              <a href="#" className="hover:text-gray-200 transition">
-                <Instagram className="w-5 h-5" />
+              <a href="#" className="hover:text-gray-200 transition" aria-label="LinkedIn">
+                <Linkedin className="w-8 h-8" />
               </a>
-              <a href="#" className="hover:text-gray-200 transition">
-                <Linkedin className="w-5 h-5" />
+              <a href="#" className="hover:text-gray-200 transition" aria-label="Instagram">
+                <Instagram className="w-8 h-8" />
               </a>
             </div>
           </div>
-        </div>
 
-        <div className="border-t border-white/20 pt-8">
-          <p className="text-center text-sm text-gray-200">
-            Copyright © 2025 Elder Blossom Foundation. All rights reserved.
-          </p>
+          <div className="flex gap-24">
+            {/* Pages Column */}
+            <div>
+              <h4 className="font-bold text-xl mb-4">Pages</h4>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="#our-story"
+                    onClick={(e) => handleSmoothScroll(e, "our-story")}
+                    className="hover:text-gray-200 transition cursor-pointer"
+                  >
+                    Our Story
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#recent-event"
+                    onClick={(e) => handleSmoothScroll(e, "recent-event")}
+                    className="hover:text-gray-200 transition cursor-pointer"
+                  >
+                    Recent Event
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#gallery"
+                    onClick={(e) => handleSmoothScroll(e, "gallery")}
+                    className="hover:text-gray-200 transition cursor-pointer"
+                  >
+                    Gallery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#gallery"
+                    onClick={(e) => handleSmoothScroll(e, "objective")}
+                    className="hover:text-gray-200 transition cursor-pointer"
+                  >
+                    Aims and Objectives
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#become-a-partner"
+                    onClick={(e) => handleSmoothScroll(e, "become-a-partner")}
+                    className="hover:text-gray-200 transition cursor-pointer"
+                  >
+                    Become a Partner
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Contact Us Column */}
+            <div id="contact-us">
+              <h4 className="font-bold text-xl mb-4">Contact Us</h4>
+              <ul className="space-y-2">
+                <li>
+                  <a href="mailto:info@elderblossom.org" className="hover:text-gray-200 transition">
+                    Info@elderblossom.org
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+234123456789" className="hover:text-gray-200 transition">
+                    +234123456789
+                  </a>
+                </li>
+                {/* <li>+234</li> */}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
