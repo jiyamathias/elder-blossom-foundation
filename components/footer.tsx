@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import Link from "next/link"
 import { Facebook, Youtube, Linkedin, Instagram } from "lucide-react"
 
@@ -17,12 +16,13 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-start">
+        <div className="flex flex-col gap-12 lg:flex-row lg:justify-between lg:items-start">
           {/* Copyright Column */}
           <div>
             <h4 className="font-bold text-xl">Copyright © 2023 Elder Blossom</h4>
             <h4 className="font-bold text-xl mb-4">Foundation</h4>
             <p className="text-sm text-gray-200 mb-8">All right reserved.</p>
+
             {/* Social Media Icons */}
             <div className="flex gap-4">
               <a href="#" className="hover:text-gray-200 transition" aria-label="Facebook">
@@ -40,7 +40,8 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex gap-24">
+          {/* Pages + Contact */}
+          <div className="flex flex-col gap-12 sm:flex-row sm:gap-24">
             {/* Pages Column */}
             <div>
               <h4 className="font-bold text-xl mb-4">Pages</h4>
@@ -74,7 +75,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#gallery"
+                    href="#objective"
                     onClick={(e) => handleSmoothScroll(e, "objective")}
                     className="hover:text-gray-200 transition cursor-pointer"
                   >
@@ -107,10 +108,10 @@ export default function Footer() {
                     +234123456789
                   </a>
                 </li>
-                {/* <li>+234</li> */}
               </ul>
             </div>
           </div>
+
         </div>
       </div>
     </footer>
