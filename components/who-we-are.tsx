@@ -37,9 +37,9 @@ export default function WhoWeAre() {
             </div>
 
             <div className="flex gap-4 mt-8">
-              <button className="px-6 py-2 bg-primary text-white rounded-md font-medium hover:bg-opacity-90 transition cursor-pointer">
+              {/* <button className="px-6 py-2 bg-primary text-white rounded-md font-medium hover:bg-opacity-90 transition cursor-pointer">
                 Learn More
-              </button>
+              </button> */}
               <button className="px-6 py-2 border-2 border-primary text-primary rounded-md font-medium hover:bg-primary hover:text-white transition cursor-pointer">
                 Donate
               </button>
