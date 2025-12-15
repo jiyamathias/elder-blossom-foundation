@@ -18,7 +18,7 @@ export default function AimsObjectives() {
   return (
     <section id="objective" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold mb-8 text-gray-900">Aims and Objectives</h2>
+        <h2 className="text-4xl font-bold mb-8 text-primary">Aims and Objectives</h2>
 
         <div className="space-y-4 mb-16">
           {objectives.map((obj, index) => (

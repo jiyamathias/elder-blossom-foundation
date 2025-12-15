@@ -6,12 +6,12 @@ export default function WhoWeAre() {
   return (
     <section id="our-story" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold mb-16 text-gray-900">Who We Are</h2>
+        <h2 className="text-4xl font-bold mb-16 text-primary">Who We Are</h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <div className="mb-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">About Us</h3>
+              <h3 className="text-2xl font-bold text-primary mb-4">About Us</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Elder Blossom Foundation is a nonprofit initiative dedicated to improving the quality of life for
                 elderly individuals in our community. We focus on creating safe, engaging, and compassionate community
@@ -24,7 +24,7 @@ export default function WhoWeAre() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h3>
+              <h3 className="text-2xl font-bold text-primary mb-4">Our Story</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Elder Blossom Foundation began with a simple vision: to create a community where aging is celebrated.
                 Our founders recognized the growing need for meaningful engagement and support for elderly individuals.
