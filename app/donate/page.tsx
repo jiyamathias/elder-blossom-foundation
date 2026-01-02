@@ -12,7 +12,7 @@ export default function DonatePage() {
         {/* Background image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/elderly-community-gathering-background.jpg"
+            src="/hero1.jpeg"
             alt="Background"
             fill
             className="object-cover"
@@ -35,9 +35,11 @@ export default function DonatePage() {
                 every elder feels seen, valued, and celebrated, you help turn ordinary moments into cherished chapters
                 of joy and dignity.
               </p>
+              <a href="https://flutterwave.com/donate/p4efl3vhwci7" target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-3 bg-white text-primary rounded-lg font-semibold transition w-full cursor-pointer">
                 Donate
               </button>
+              </a>
             </div>
 
             {/* Right - Image with rounded corners and cream background */}
@@ -70,9 +72,11 @@ export default function DonatePage() {
                 memories. Join a community that honors elders as the treasures they are, and help us make every chapter
                 of life bloom. No experience needed—just an open heart.
               </p>
-              <button className="px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition w-fit">
+              <a href="https://flutterwave.com/donate/p4efl3vhwci7" target="_blank" rel="noopener noreferrer">
+              <button className="px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition w-fit cursor-pointer">
                 Join Our Mission
               </button>
+              </a>
             </div>
 
             {/* Partner Card */}
@@ -86,9 +90,11 @@ export default function DonatePage() {
                 collaboration nurtures a future where every chapter of life is celebrated. Let's grow something
                 beautiful, side by side.
               </p>
-              <button className="px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition w-fit">
-                Become a Partner
-              </button>
+              <a href="https://flutterwave.com/donate/p4efl3vhwci7" target="_blank" rel="noopener noreferrer">
+                <button className="px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition w-fit cursor-pointer">
+                  Become a Partner
+                </button>
+              </a>
             </div>
           </div>
         </div>

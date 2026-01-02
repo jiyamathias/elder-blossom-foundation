@@ -3,11 +3,22 @@
 import Image from "next/image"
 
 export default function Hero() {
+  const handleSmoothScroll = (
+    e: React.MouseEvent<HTMLElement>,
+    targetId: string
+  ) => {
+    e.preventDefault()
+    const element = document.getElementById(targetId)
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" })
+    }
+  }
+    
   return (
     <section className="relative pb-20 text-white overflow-hidden min-h-screen flex items-center justify-center">
       {/* Background image - extends to top */}
       <div className="absolute inset-0 z-0">
-        <Image src="/elderly-community-gathering.jpg" alt="Background" fill className="object-cover" priority />
+        <Image src="/hero2.jpeg" alt="Background" fill className="object-cover" priority />
       </div>
 
       {/* Dark overlay */}
@@ -22,7 +33,7 @@ export default function Hero() {
           Foundation, we believe aging is not about growing old it's about growing gold. We're dedicated to ensuring
           every elder in our community feels valued, connected, and empowered to live their fullest life.
         </p>
-        <button className="px-8 py-3 bg-white text-primary rounded-md font-semibold hover:bg-primary hover:text-white transition cursor-pointer">
+        <button onClick={(e) => handleSmoothScroll(e, "our-story")} className="px-8 py-3 bg-white text-primary rounded-md font-semibold hover:bg-primary hover:text-white transition cursor-pointer">
           Join Our Mission
         </button>
       </div>

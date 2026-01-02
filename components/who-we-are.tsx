@@ -40,9 +40,11 @@ export default function WhoWeAre() {
               {/* <button className="px-6 py-2 bg-primary text-white rounded-md font-medium hover:bg-opacity-90 transition cursor-pointer">
                 Learn More
               </button> */}
-              <button className="px-6 py-2 border-2 border-primary text-primary rounded-md font-medium hover:bg-primary hover:text-white transition cursor-pointer">
-                Donate
-              </button>
+              <a href="https://flutterwave.com/donate/p4efl3vhwci7" target="_blank" rel="noopener noreferrer">
+                <button className="px-6 py-2 border-2 border-primary text-primary rounded-md font-medium hover:bg-primary hover:text-white transition cursor-pointer">
+                  Donate
+                </button>
+              </a>
             </div>
           </div>
 
