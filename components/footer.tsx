@@ -25,16 +25,16 @@ export default function Footer() {
 
             {/* Social Media Icons */}
             <div className="flex gap-4">
-              <a href="#" className="hover:text-gray-200 transition" aria-label="Facebook">
+              <a href="#" target="_blank" className="hover:text-gray-200 transition" aria-label="Facebook">
                 <Facebook className="w-8 h-8" />
               </a>
-              <a href="#" className="hover:text-gray-200 transition" aria-label="YouTube">
+              {/* <a href="#" target="_blank" className="hover:text-gray-200 transition" aria-label="YouTube">
                 <Youtube className="w-8 h-8" />
-              </a>
-              <a href="#" className="hover:text-gray-200 transition" aria-label="LinkedIn">
+              </a> */}
+              {/* <a href="#" target="_blank" className="hover:text-gray-200 transition" aria-label="LinkedIn">
                 <Linkedin className="w-8 h-8" />
-              </a>
-              <a href="#" className="hover:text-gray-200 transition" aria-label="Instagram">
+              </a> */}
+              <a href="https://www.instagram.com/elderblossomfoundation" target="_blank" className="hover:text-gray-200 transition" aria-label="Instagram">
                 <Instagram className="w-8 h-8" />
               </a>
             </div>
@@ -105,7 +105,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="tel:+234123456789" className="hover:text-gray-200 transition">
-                    +234123456789
+                    +2348059016845
                   </a>
                 </li>
               </ul>
