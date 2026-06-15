@@ -13,12 +13,12 @@ export default function Hero() {
       element.scrollIntoView({ behavior: "smooth", block: "start" })
     }
   }
-    
+  
   return (
     <section className="relative pb-20 text-white overflow-hidden min-h-screen flex items-center justify-center">
       {/* Background image - extends to top */}
       <div className="absolute inset-0 z-0">
-        <Image src="/hero2.jpeg" alt="Background" fill className="object-cover" priority />
+        <Image src="/images/Image(9).png" alt="Background" fill className="object-cover" priority />
       </div>
 
       {/* Dark overlay */}
